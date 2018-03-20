@@ -19,3 +19,24 @@ a:hover {
 a:active {
 	background-color: green;
 }
+li:first-child {
+	background-color: purple;
+}
+li:last-child {
+	background-color: orange;
+}
+li:nth-child(even) {
+	background-color: brown;
+}
+li:nth-child(odd) {
+	background-color: yellow;
+}
+li:nth-child(n) {
+	background-color: red;
+}
+li:only-child {
+	background-color: black;
+}
+li:nth-child(an+b) {
+	background-color: brown;
+}
