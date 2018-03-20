@@ -7,3 +7,15 @@ li {
 p {
 	color: purple
 }
+a:link {
+	background-color: blue;
+}
+a:visited {
+background-color: pink;
+}
+a:hover {
+	background-color: yellow;
+}
+a:active {
+	background-color: green;
+}
