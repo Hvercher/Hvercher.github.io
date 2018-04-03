@@ -1,0 +1,18 @@
+div {
+  position: relative;
+  top: 0;
+  display: inline;
+  height: 2em;
+  width: 2em;
+  background-color: red;
+  border: 1px solid black;
+}
+span {
+  position: relative;
+  top: 5em;
+  display: block;
+  height: 2em;
+  width: 2em;
+  background-color: green;
+  border: 1px solid gray;
+}
