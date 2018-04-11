@@ -1,0 +1,20 @@
+body {
+  background-color: blue;
+}
+header{
+  background-color: green;
+}
+h1 {
+  color: blue;
+}
+h2 {
+  color: red;
+}
+div{
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-image: url(https://cdn.cnn.com/cnnnext/dam/assets/150916152307-avo-ndamase-surfing-exlarge-169.jpg);
+}

@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: inherit;
+  color: inherit;
+}
+main {
+  height: 100vh;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content:
+}
+div {
+  width: 200px;
+  height: 100px;
+border: 2px soild black;
+background-color: green;
+margin: 5px;
+font: bold 2rem/1 sans-serif;
+display: flex;
+justify-content: center;
+align-content: center;
+}
