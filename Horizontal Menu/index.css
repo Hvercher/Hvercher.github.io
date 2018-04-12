@@ -1,0 +1,22 @@
+ul{
+  font-size: 2rem;
+  list-style-type: none;
+}
+a {
+  border: 2px solid black;
+  border-radius: 50px;
+  display: inline-block;
+  text-decoration: none;
+}
+li {
+  padding: 10px;
+  font-size: 2rem;
+  border-radius: 50px;
+  border: 2px solid red;
+display: inline-block;
+list-style-type: n
+
+}
+li:hover {
+  background-color: green;
+}
