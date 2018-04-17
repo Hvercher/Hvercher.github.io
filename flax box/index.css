@@ -1,27 +1,20 @@
-*{
-  padding: 0;
-  border: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font: inherit;
-  color: inherit;
-}
-main {
-  height: 100vh;
-  border: 2px solid red;
+.flex-container{
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content:
+  flex-wrap: wrap;
+  background-color: black;
+  border: 40px soild red;
+
 }
-div {
-  width: 200px;
-  height: 100px;
-border: 2px soild black;
-background-color: green;
-margin: 5px;
-font: bold 2rem/1 sans-serif;
-display: flex;
-justify-content: center;
-align-content: center;
+.flex-container > div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+font-size: 30px;
 }
+.left {
+flex-grow: 1;
+}
+.right {
+  flex-grow: 2;
