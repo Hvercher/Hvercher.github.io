@@ -1,0 +1,33 @@
+section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.one {
+  background-color: red;
+  width: 100%;
+}
+
+.two {
+  flex-basis: 60%;
+  background-color: blue;
+}
+
+.three {
+  flex-basis: 40%;
+  background-color: tomato;
+}
+.four {
+  flex-basis: 70%;
+  background-color: purple;
+}
+.five {
+  flex-basis: 30%;
+  background-color: green;
+
+}
+@media only screen and (max-width: 1200px) {
+  .one, .two, .three, .four, .five{
+  flex-basis: 100%;
+}
+}
