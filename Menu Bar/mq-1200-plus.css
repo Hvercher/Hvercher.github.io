@@ -1,0 +1,10 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: deepskyblue;
+  justify-content: flex-end;
+}
+li {
+  border: none;
+}
