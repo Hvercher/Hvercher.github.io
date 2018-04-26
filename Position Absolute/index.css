@@ -1,0 +1,27 @@
+html {
+  border:  2px solid purple;
+}
+body {
+  width: 40%;
+  border: 2px solid deepskyblue;
+}
+div {
+  border: 2px solid red;
+  color: white;
+}
+#one {
+  position: relative;
+  top: 100px;
+  width: 600px;
+  height: 400px;
+  background-color: black;
+}
+#two {
+  position: absolute;
+  top: 120px;
+  right: 20px;
+  width:300px;
+  height: 200px;
+  background-color: purple;
+
+}
