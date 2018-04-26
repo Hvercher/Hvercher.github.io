@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+<body>
+<div></div>
+<div id="one">Relative</div>
+</body>
+</html>
+<!--
+Relative to itself
+Relative positioning tells element to more relative to where it would have landed if it just had the default static positioning.
+
+If you give an element relative positioning and tell it to have a "top 10px", it doesn't move down ten pixels from any particular thing- it moves down ten pixels from where it otherwise would have been.
+
+Relative behaves the same as static unless you add some extra properties.
+
+Setting the top right bottom and left properties of a relatively positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit intoany gap left by the element. (learnlayout)
+-->
+
+
+<!--
+with relatively positioned elements, it's important to know the box offset properties identify where an element will moved from given its original position (howe)
+-->
+
+<!--
+What it really means is "relative to itself". If you set "position: relative;" on an element but no other positioning attributes (top left, bottom or right). It will no effect on it's positioning at all, it will be exactly as it would be if you left it as position static;
+
+But if you Do give it some other positioning attribute, say "top: 10px;", it will shift it's position 10 pixels Down from where it would Normally be I'm sure you can imgine, the ability to shiftb an element around based on it's regular positionis pretly useful. I find myself using this to line from elements many times that have a
+tendency to not want to line up how I want them to. (css-tricks)
+-->
