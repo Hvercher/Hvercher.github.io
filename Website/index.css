@@ -1,0 +1,75 @@
+body, header, ul, li, a, h1, p, img, footer {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+header {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  /*height: 3em;*/
+  width: 100%;
+  background-color: red;
+  font-size: 2em;
+}
+ul {
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: blue;
+}
+li {
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  margin-left: 1em;
+}
+h1 {
+  text-align: center;
+  padding: 1em;
+  font-size: 1.5em;
+}
+p {
+  position: relative;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  font-size: 1.5em;
+  background-color: blue;
+  box-shadow: 5px 10px black;
+  /*background: white;*/
+}
+img {
+  position: relative;
+  width: 10em;
+  height: 15em;
+  border: 5px solid blue;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+
+}
+div {
+  position: relative;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+body {
+  background-image: url(http://www.specialolympicsga.org/wp-content/uploads/2015/08/50-01-260x185.jpg);
+  background-size: contain;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: blue;
+  font-size: 1.5em;
+}
