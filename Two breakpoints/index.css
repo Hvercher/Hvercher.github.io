@@ -8,7 +8,7 @@ html, body, header, main, aside, footer {
 }
 section {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 .chi {
