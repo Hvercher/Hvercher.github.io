@@ -1,0 +1,10 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+  border: 5px solid blue;
+}
+div:hover {
+  background-color: black;
+}
