@@ -1,0 +1,46 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  border: 2px solid red;
+  height: 10em;
+}
+ .flex-container .one {
+   position: relative;
+   height: 5em;
+   width: 55%;
+  background-color: purple;
+  float: left;
+
+}
+.flex-container .two {
+position: relative;
+height: 5em;
+width: 45%;
+background-color: green;
+float: right;
+}
+.flex-container .three {
+  position: relative;
+  height: 5em;
+  width: 30%;
+  background-color: yellow;
+
+}
+.flex-container .four {
+  position: relative;
+  height: 5em;
+  width: 35%;
+  background-color: brown;
+
+}
+.flex-container.five {
+  position: relative;
+  height: 6em;
+  width: 35%;
+  background-color: orange;
+
+}
+footer {
+  clear: both;
+}
