@@ -1,0 +1,37 @@
+html, body, div{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  border: 10px solid black;
+  border-radius: 50%;
+  animation-name: wackabacka;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-play-state: running;
+  animation-duration: 4s;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+@@keyframes wackabacka {
+0% {top: 0 left:0;}
+25% {top: 0; left: 95vw;}
+50% {top: 92vh; left: 95vw;}
+75% {top: 92vh; left: 0;}
+}
