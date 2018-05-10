@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body, div{
   padding: 0;
   border: 0;
@@ -34,4 +35,15 @@ div {
 25% {top: 0; left: 95vw;}
 50% {top: 92vh; left: 95vw;}
 75% {top: 92vh; left: 0;}
+=======
+div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+  border: 5px solid blue;
+}
+div:hover {
+  background-color: black;
+>>>>>>> 7aeacefc02d70c34171216aa1d3aaffb2a169e3f
 }

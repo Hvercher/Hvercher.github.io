@@ -1,0 +1,25 @@
+div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(purple, black);
+  animation: bounce 0.5;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-name: bounce;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-duration: 2s;
+  position: fixed;
+  left: 0;
+  top: 0;
+  border: 2px solid red;
+}
+@keyframes bounce {
+0% {top: 0;left: 0;}
+25% {top: 0;left: 95vw;}
+50% {top: 92vh;left: 95vw;}
+75% {top: 92;left: 0;}
+90% {top: 15vh;left: 0vw;}
+}
